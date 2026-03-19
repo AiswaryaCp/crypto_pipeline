@@ -14,7 +14,7 @@ This project fetches cryptocurrency prices and stores them in AWS S3 using Apach
 - `.gitignore`: Files excluded from version control.
 
 ## Setup Instructions
-1. Clone the repo: `git clone <your-url>`
+1. Clone the repo: `git clone <url>`
 2. Create environment: `python -m venv env`
 3. Install dependencies: `pip install -r requirements.txt`
-4. Set up Airflow: `airflow db init`
+4. Set up Airflow: `airflow db migrate`
